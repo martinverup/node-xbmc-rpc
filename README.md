@@ -8,7 +8,7 @@ Usage example
 var xbmc_rpc = require('node-xbmc-rpc');
 
 var xbmc = new xbmc_rpc({
-    url: http://<HOST>:<IP>,
+    url: 'http://<HOST>:<IP>',
     user: <XBMC USERNAME>,
     password: <XBMC PASSWORD>
 });
