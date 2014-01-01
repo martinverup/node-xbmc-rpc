@@ -1,0 +1,34 @@
+{
+  "name": "node-xbmc-rpc",
+  "description": "Node interface for XBMC using JSON-RPC",
+  "author": {
+    "name": "Martin Verup",
+    "email": "mverup@gmail.com"
+  },
+  "keywords": [
+    "xbmc",
+    "htpc",
+    "media",
+    "movies",
+    "tv"
+  ],
+  "version": "0.0.1-alpha",
+  "main": "lib/xbmc-rpc.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:martinverup/node-xbmc-rpc.git"
+  },
+  "dependencies": {
+    "q": "~0.8.12",
+    "request": "~2.9.203"
+  },
+  "homepage": "https://github.com/martinverup/node-xbmc-rpc",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/martinverup/node-xbmc-rpc/issues"
+  },
+  "readme": "node-xbmc-rpc\r\n================\r\nNode interface for XBMC using JSON-RPC",
+  "readmeFilename": "README.md",
+  "_id": "node-xbmc-rpc@0.0.1-alpha",
+  "_from": "node-xbmc-rpc@"
+}
