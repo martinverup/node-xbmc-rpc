@@ -8,12 +8,24 @@ Usage example
 var xbmc_rpc = require('node-xbmc-rpc');
 
 var xbmc = new xbmc_rpc({
-    url: 'http://<HOST>:<IP>',
+    url: <XBMC HOST>,
     user: <XBMC USERNAME>,
     password: <XBMC PASSWORD>
 });
 
-xbmc.rpc('GUI.ShowNotification', '{"title" : "Title", "message" : "Message"}').then(function(r) {
+xbmc.player.getCurrentlyPlayingVideo().then(function(r) {
     console.log(r);
 });
+
+xbmc.input.sendText('{"text": "This text is sent to XBMC"}').then(function(r) {
+    console.log(r);
+});
+
+// OR
+
+xbmc.input.sendText('This text is sent to XBMC').then(function(r) {
+    console.log(r);
+});
+
+
 ```
