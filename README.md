@@ -17,7 +17,7 @@ xbmc.player.getCurrentlyPlayingVideo().then(function(r) {
     console.log(r);
 });
 
-xbmc.input.sendText('{"text": "This text is sent to XBMC"}').then(function(r) {
+xbmc.input.sendText({"text": "This text is sent to XBMC"}).then(function(r) {
     console.log(r);
 });
 
